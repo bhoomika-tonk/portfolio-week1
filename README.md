@@ -1,0 +1,20 @@
+# 🌐 Personal Portfolio Website – Week 1
+
+This is a **responsive personal portfolio website** created as part of the **Week 1 assignment**.  
+The project demonstrates the use of **HTML, CSS, and JavaScript** to build a simple, mobile-friendly portfolio.
+
+---
+
+## 🚀 Live Demo
+👉 https://bhoomika-tonk.github.io/portfolio-week1/
+
+---
+
+## 📁 Project Structure
+portfolio-week1
+│
+├── index.html
+├── style.css
+├── script.js
+└── images
+└── bg.jpg
