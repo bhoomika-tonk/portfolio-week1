@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BACKGROUND IMAGE */
+body {
+  background-image: url("3a54e1805c1e4bcdadd0a3120dd20e4c.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(26, 24, 24);
+}
+
+/* Navbar */
+header {
+  background: #effeff;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #b97f7f;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #1e5353;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: #ca179d;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills-list span {
+  background: #e3ff5a;
+  color: rgb(9, 9, 9);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+/* Projects */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  background: hwb(65 45% 18%);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.card {
+  background: #73c4a91a;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  color: rgb(143, 57, 120);
+  text-decoration: none;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: rgba(235, 96, 96, 0.2);
+}
+
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #8a1e1e;
+  color: rgb(241, 237, 241);
+  border: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #7e9431;
+}
+
+/* Scroll Button */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 0.6rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+  }
+}
+/* GitHub Link Styling */
+a {
+  color: #60a5fa;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
