@@ -6,7 +6,7 @@ The project demonstrates the use of **HTML, CSS, and JavaScript** to build a sim
 ---
 
 ## 🚀 Live Demo
-👉 https://bhoomika-tonk.github.io/portfolio-week1/
+👉 https://github.com/bhoomika-tonk/portfolio-week1
 
 ---
 
